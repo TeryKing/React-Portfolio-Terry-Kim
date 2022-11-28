@@ -1,0 +1,144 @@
+.a {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+    position: relative;
+}
+.a-card-bg {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    background-color: aquamarine;
+}
+.a-card {
+    left: 50px;
+    width: 21vw;
+    height: 40vh;
+    border-radius: 40px;
+    background-color: rgba(0, 0, 0, 0.05);
+    position: relative;
+    display: flex;
+    justify-content: center;
+
+}
+.a-left {
+    flex: 1;
+}
+.a-img {
+    position: absolute;
+    
+    width: 20vw;
+    height: 40vh;
+    border-radius: 40px;
+}
+.a-right {
+    flex: 1;
+}
+.a-intro {
+    font-size: 2.5rem;
+    color: white;
+}
+.a-desc {
+    font-size: 1.15rem;
+    color: white;
+}
+.a-link {
+    font-size: 1.25rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: rgb(235, 0, 157);
+}
+.a-skills {
+    height: 3rem;
+    overflow: hidden;
+}
+.skills-bold {
+    font-size: 1.25rem;
+    color: rgb(204, 74, 255);
+    font-weight: 600;
+    
+}
+.a-skills-wrapper {
+    height: 100%;
+    animation: move 20s ease-in-out infinite alternate;
+}
+
+@keyframes move {
+    10%{
+        transform: translateY(-50px);
+    }
+    20%{
+        transform: translateY(-100px);
+    }
+    30%{
+        transform: translateY(-150px);
+    }
+    40%{
+        transform: translateY(-200px);
+    }
+    50%{
+        transform: translateY(-250px);
+    }
+    60%{
+        transform: translateY(-300px);
+    }
+    70%{
+        transform: translateY(-350px);
+    }
+    80%{
+        transform: translateY(-400px);
+    }
+    90%{
+        transform: translateY(-450px);
+    }
+    100%{
+        transform: translateY(-500px);
+    }
+}
+
+.a-skills-skill {
+    height: 50px;
+    font-size: 2rem;
+    font-weight: bolder;
+    color: rgb(204, 74, 255);
+    display: flex;
+    align-items: center;
+}
+.a-skills-m {
+    visibility: hidden;
+}
+
+@media screen and (max-width: 480px) {
+    .a {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        position: relative;
+        right: 5px;
+    }
+    .a-card {
+        top: 50px;
+        left: 15px;
+    }
+    .a-img {
+        position: absolute;
+        width: 75vw;
+        height: 40vh;
+        object-fit: cover;
+    }
+    .a-intro {
+        display: none;
+    }
+    .a-desc {
+        display: none;
+    }
+    .a-skills-m {
+        color: white;
+        font-size: 4rem;
+        font-weight: bolder;
+        visibility: visible;
+    }
+}

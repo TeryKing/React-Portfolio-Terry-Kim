@@ -1,0 +1,175 @@
+.c {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    font-family: 'Poppins', sans-serif;
+    color: white
+}
+
+.c-bg {
+    width: 100vw;
+    height: 100%;
+    /* background-color: rgba(0, 0, 0, 0.5); */
+    border-radius: 25px;
+    position: absolute;
+    z-index: -1;
+}
+
+.c-title {
+    color: white;
+}
+
+.c-wrapper {
+    padding: 50px;
+    display: flex;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+.c-left {
+    flex: 1;
+}
+.c-right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.c-icon {
+    width: 5vw;
+    height: 30%;
+    margin-right: 20px;
+    
+}
+.c-info-item {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+}
+.c-right-desc {
+    font-size: 1.5rem;
+    color: white;
+}
+form {
+    margin-top: 20px;
+}
+input {
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 5vh;
+    border: none;
+    border-bottom: 2px solid white;
+    margin: 10px;
+    background-color: transparent;
+    color: white;
+    outline: none;
+    font-size: 1.5rem;
+}
+
+
+::placeholder {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+textarea {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+    height: 20vh;
+    background-color: transparent;
+    border: none;
+    border-bottom: 2px solid white;
+    resize: none;
+    margin: 10px;
+    outline: none;
+    font-size: 1.5rem;
+}
+textarea:focus {
+    border: 2px solid white;
+    border-radius: 10px;
+    background-color: rgb(27, 27, 27);
+    transition: all 150ms ease;
+}
+button {
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    border: none;
+    border-bottom: solid 2px white;
+    color: white;
+    width: 7rem;
+    height: 3rem;
+    font-size: 1.5rem;
+}
+
+button:hover {
+    border: solid 2px white;
+    transition: all 500ms ease;
+    border-radius: 10px;
+    background-color: rgb(255, 0, 119);
+}
+.e-sent{
+    font-size: 2rem;
+    color: rgb(255, 0, 119);
+    font-weight: 900;
+}
+.r-download {
+    text-decoration: none;
+    color: white;
+    font-weight: 900;
+}
+
+@media screen and (max-width: 480px) {
+    .c-wrapper {
+      flex-direction: column;
+      padding: 0px 50px;
+      justify-content: space-between;
+    }
+  
+    .c-title {
+      font-size: 30px;
+    }
+
+    .c-icon {
+        width: 20vw;
+        height: 10vh;
+    }
+  
+    .c-info-item {
+      margin: 20px 0px;
+      width: 100%;
+    }
+  
+    .c-right-desc {
+      display: none;
+    }
+  
+    form {
+      margin-top: 0px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+  
+    input {
+      width: 35%;
+      height: 10vh;
+      margin: 10px;
+      margin-left: 0;
+      font-size: 1rem;
+    }
+    textarea{
+        font-size: 1rem;
+    }
+  
+    button {
+      margin-top: 10px;
+      font-size: 1rem;
+    }
+    .e-sent{
+        font-size: 1.25rem;
+        font-weight: 600;
+        color: rgb(255, 0, 119);
+    }
+  }

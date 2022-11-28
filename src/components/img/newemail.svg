@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="48" height="48" xmlns="http://www.w3.org/2000/svg">
+  <g fillrule="evenodd" strokeopacity="1">
+    <rect width="38.064" height="30.129" x="5" y="8.871" fillopacity="1" stroke="none" strokelinecap="butt" strokelinejoin="miter" strokewidth="1" rx="4.029" ry="3.965" style="fill: rgb(81, 0, 131);"/>
+    <rect fillopacity="0" stroke="none" strokelinecap="butt" strokelinejoin="miter" strokewidth="1" style="fill: rgb(229, 0, 107);" x="9" y="13" width="30" height="22" rx="1" ry="1"/>
+    <path fill="none" fillopacity="0.75" strokedasharray="none" strokelinecap="round" strokelinejoin="round" strokemiterlimit="4" strokewidth="4" d="M 8.178 12.522 L 22.178 26.347 C 23.303 27.546 24.062 27.536 25.224 26.38 L 40.255 12.167" style="stroke: rgb(81, 0, 131);"/>
+  </g>
+</svg>

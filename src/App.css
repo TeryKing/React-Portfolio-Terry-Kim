@@ -1,0 +1,14 @@
+body{
+  
+  background-image: url('../public/images/portbg.svg');
+  background-repeat: no-repeat;
+  background-size:  cover;
+  background-position: center;
+  background-attachment:  fixed;
+  height: 100vh;
+  width: 100vw;
+
+}
+::-webkit-scrollbar{
+  display: none;
+}
