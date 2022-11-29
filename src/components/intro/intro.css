@@ -21,7 +21,6 @@ position: relative;
     flex-direction: column;
     justify-content: space-between;
     position: absolute;
-    /* align-items: center; */
 }
 .i-right{
 flex: 1;

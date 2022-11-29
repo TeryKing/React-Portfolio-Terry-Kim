@@ -6,9 +6,9 @@ const ProductList = () => {
     return (
         <div className="pl">
             <div className="pl-texts">
-            <h1 className="pl-title"> Projects</h1>
+            <h1 className="pl-title">Projects</h1>
             <p className="pl-desc">
-                Expect more projects as I flourish with my pursue of coding!
+                Some projects I completed! Expect more in the future!
             </p>
             </div>
             <div className="pl-list">

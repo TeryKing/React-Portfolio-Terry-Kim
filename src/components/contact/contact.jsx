@@ -63,7 +63,7 @@ const Contact = () => {
                 </div>
                 <div className="c-right">
                     <div className="c-right-desc">
-                    Let's talk about your project - challenges.<br/> I look forward to learning more from and about you.
+                    Let's talk about projects!<br/> I look forward to working with you!
                     </div>
                     <form ref={formRef} onSubmit={handleSubmit}>
                         <input type="text" placeholder="Your Name" name="user_name"/>

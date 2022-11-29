@@ -26,7 +26,6 @@ const Intro = () => {
             </div>
             <div className="i-right">
                 <div className="i-bg"><img src={Me} alt="me" className="i-img"/></div>
-                {/* <img src={Me} alt="me" className="i-img"/> */}
             </div>
         </div>
     )
