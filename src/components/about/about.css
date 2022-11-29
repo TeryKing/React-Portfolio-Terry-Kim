@@ -7,12 +7,14 @@
     border-radius: 25px;
     position: relative;
 }
+
 .a-card-bg {
     position: absolute;
     top: 50px;
     left: 50px;
     background-color: aquamarine;
 }
+
 .a-card {
     left: 50px;
     width: 21vw;
@@ -24,9 +26,11 @@
     justify-content: center;
 
 }
+
 .a-left {
     flex: 1;
 }
+
 .a-img {
     position: absolute;
     
@@ -34,33 +38,39 @@
     height: 40vh;
     border-radius: 40px;
 }
+
 .a-right {
     flex: 1;
 }
+
 .a-intro {
     font-size: 2.5rem;
     color: white;
 }
+
 .a-desc {
     font-size: 1.15rem;
     color: white;
 }
+
 .a-link {
     font-size: 1.25rem;
     font-weight: 600;
     text-decoration: none;
     color: rgb(235, 0, 157);
 }
+
 .a-skills {
     height: 3rem;
     overflow: hidden;
 }
+
 .skills-bold {
     font-size: 1.25rem;
     color: rgb(204, 74, 255);
     font-weight: 600;
-    
 }
+
 .a-skills-wrapper {
     height: 100%;
     animation: move 20s ease-in-out infinite alternate;
@@ -107,6 +117,7 @@
     display: flex;
     align-items: center;
 }
+
 .a-skills-m {
     visibility: hidden;
 }
